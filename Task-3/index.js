@@ -5,11 +5,11 @@ const calculatetemp =()=>{
     // console.log(valueTemp)
 
     const celToFah = (celcius) => {
-        let f = Math.round((celcius*9/5)+32);
+        let f = (celcius*9/5)+32;
         return f;
     }
     const fahToCel = (fahrenheit) => {
-      let c = Math.round((5/9)*fahrenheit-32);
+      let c = (5/9)*fahrenheit-32;
       return c;
     };
 
